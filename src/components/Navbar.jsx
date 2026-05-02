@@ -32,6 +32,7 @@ export default function Navbar() {
         <button
           onClick={() => setOpen(!open)}
           className="md:hidden p-2 rounded-xl bg-zinc-900 border border-zinc-800"
+          aria-label="menu"
         >
           {open ? <X size={20} /> : <Menu size={20} />}
         </button>

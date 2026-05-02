@@ -22,7 +22,7 @@ export default function Contact() {
             <div className="flex items-start gap-4">
               <MailIcon className="text-zinc-400 mt-1" size={20} />
               <div>
-                <p className="text-sm text-zinc-500">Email</p>
+                <p className="text-sm text-zinc-400">Email</p>
                 <a
                   href="mailto:yourmail@example.com"
                   className="text-white hover:text-zinc-300"
@@ -35,7 +35,7 @@ export default function Contact() {
             <div className="flex items-start gap-4">
               <BiPhone className="text-zinc-400 mt-1" size={20} />
               <div>
-                <p className="text-sm text-zinc-500">Phone</p>
+                <p className="text-sm text-zinc-400">Phone</p>
                 <a href="tel:+917013915253" className="text-white">
                   +91 7013915253
                 </a>
@@ -45,7 +45,7 @@ export default function Contact() {
             <div className="flex items-start gap-4">
               <BiMapPin className="text-zinc-400 mt-1" size={20} />
               <div>
-                <p className="text-sm text-zinc-500">Location</p>
+                <p className="text-sm text-zinc-5=400">Location</p>
                 <p className="text-white">India</p>
               </div>
             </div>
