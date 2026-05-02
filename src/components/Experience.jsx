@@ -21,25 +21,61 @@ export default function Experience() {
           </div>
           <div className="grid lg:grid-cols-2 gap-6 mt-8">
             <div className="p-6 rounded-2xl bg-zinc-950 border border-zinc-800">
+              <h4 className="text-xl font-semibold">CommerceHub</h4>
+              <ul className="mt-4 text-zinc-400 space-y-2">
+                <li>
+                  • Built products page, cart, checkout and dashboard workflows
+                  for ecommerce operations
+                </li>
+                <li>
+                  • Implemented authentication, protected routes and
+                  session-based user flows
+                </li>
+                <li>
+                  • Integrated APIs for products, inventory, orders, payments
+                  and customer management
+                </li>
+                <li>
+                  • Developed analytics dashboards for sales, orders and
+                  transaction tracking
+                </li>
+                <li>
+                  • Improved application performance using lazy loading,
+                  memoization and code splitting techniques
+                </li>
+                <li>
+                  • Optimized rendering performance for data-heavy pages using
+                  efficient state updates and memoization
+                </li>
+                <li>
+                  • Improved responsiveness across desktop, tablet and mobile
+                  devices
+                </li>
+              </ul>
+            </div>
+            <div className="p-6 rounded-2xl bg-zinc-950 border border-zinc-800">
               <h4 className="text-xl font-semibold">FinBank</h4>
               <ul className="mt-4 text-zinc-400 space-y-2">
                 <li>
                   • Developed scalable reusable UI components for banking
-                  workflows
+                  workflows and core transaction modules
                 </li>
-                <li>• Built responsive interfaces across devices</li>
-                <li>• Integrated APIs for core business modules</li>
-                <li>• Improved forms, usability and maintainability</li>
-              </ul>
-            </div>
-            <div className="p-6 rounded-2xl bg-zinc-950 border border-zinc-800">
-              <h4 className="text-xl font-semibold">CommerceHub</h4>
-              <ul className="mt-4 text-zinc-400 space-y-2">
-                <li>• Built products page, cart and dashboard workflows</li>
-                <li>• Implemented authentication and protected flows</li>
-                <li>• Integrated APIs across modules</li>
                 <li>
-                  • Optimized rendering performance and reusable architecture
+                  • Built highly responsive interfaces with cross-browser and
+                  cross-device compatibility
+                </li>
+                <li>
+                  • Integrated secure REST APIs for accounts, transactions,
+                  statements and customer operations
+                </li>
+
+                <li>
+                  • Implemented dynamic forms with validations for customer
+                  onboarding and service requests
+                </li>
+                <li>
+                  • Enhanced maintainability by standardizing reusable layouts
+                  and component architecture
                 </li>
               </ul>
             </div>
@@ -59,12 +95,29 @@ export default function Experience() {
             <h4 className="text-xl font-semibold">FlowOne</h4>
             <ul className="mt-4 text-zinc-400 space-y-2">
               <li>
-                • Developed finance dashboards for receivables and credit
-                management
+                • Developed responsive dashboards for Accounts Receivable and
+                Credit Management workflows
               </li>
-              <li>• Built modules using React, TypeScript and Material UI</li>
-              <li>• Implemented workflow screens and API integrations</li>
-              <li>• Enhanced usability, responsiveness and maintainability</li>
+              <li>
+                • Built modules using React, TypeScript and Material UI with
+                reusable component architecture
+              </li>
+              <li>
+                • Integrated APIs for payments, collections, invoices and
+                customer account data
+              </li>
+              <li>
+                • Implemented workflow screens for approvals, aging reports and
+                outstanding balances
+              </li>
+              <li>
+                • Enhanced usability, responsiveness and cross-browser
+                compatibility
+              </li>
+              <li>
+                • Improved maintainability through modular code structure and
+                scalable UI patterns
+              </li>
             </ul>
           </div>
         </div>

@@ -21,16 +21,13 @@ export default function Projects() {
               <img
                 src={p.image}
                 alt={p.title}
+                loading="lazy"
                 className="h-full w-full object-cover hover:scale-105 transition duration-500"
               />
             </div>
 
             {/* Content */}
             <div className="p-7 flex flex-col flex-1">
-              <div className="text-sm text-indigo-400 mb-3">
-                Case Study {i + 1}
-              </div>
-
               <h4 className="text-2xl font-semibold">{p.title}</h4>
 
               <p className="mt-4 text-zinc-400 flex-1">{p.desc}</p>

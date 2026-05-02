@@ -9,30 +9,34 @@ export default function About() {
         About Me
       </h3>
       <div className="flex justify-center">
-        <div className="max-w-[80%] grid lg:grid-cols-2 gap-12 items-start">
-          <div className="space-y-10 text-zinc-400 text-xl leading-relaxed">
+        <div className="max-w-[90%] md:max-w-[80%] grid lg:grid-cols-2 gap-12 items-center">
+          <div className="space-y-10 text-zinc-300 text-xl leading-relaxed">
             <p>
-              I currently work as a Frontend Developer building scalable React
-              frontends, reusable UI systems, and responsive product experiences
-              for real-world business workflows.
+              I’m a Frontend Developer with 3.6 years of experience building
+              scalable, responsive web applications using React.js, JavaScript,
+              and TypeScript. I focus on creating reusable UI systems, seamless
+              user experiences, and maintainable frontend architectures for
+              real-world business products.
             </p>
+
             <p>
-              My work spans state management with Redux and modern query
-              libraries, REST API integration, dynamic forms, data-heavy
-              interfaces, and performance-minded UI implementation that stays
-              maintainable as products grow.
+              My expertise includes state management with Redux, API
+              integrations, dynamic forms, dashboard development, and
+              performance optimization. I enjoy turning complex workflows into
+              clean, efficient interfaces that scale as products and user needs
+              grow.
             </p>
           </div>
           <div className="grid grid-cols-2 gap-5">
             {[
-              { value: "3.6+", label: "Years Experience" },
+              { value: "3+", label: "Years Experience" },
               { value: "2", label: "Delivered projects" },
               { value: "React + TS", label: "Core Stack" },
               { value: "India", label: "Based In" },
             ].map((item) => (
               <div
                 key={item.label}
-                className="rounded-3xl min-h-47.5 p-6 bg-zinc-950/70 border border-zinc-800 backdrop-blur-xl flex flex-col justify-center items-center text-center hover:border-cyan-400 transition"
+                className="rounded-3xl min-h-35 p-6 bg-zinc-950/70 border border-zinc-800 backdrop-blur-xl flex flex-col justify-center items-center text-center hover:border-cyan-400 transition"
               >
                 <div className="text-3xl md:text-4xl font-bold bg-linear-to-r from-cyan-400 to-indigo-500 bg-clip-text text-transparent">
                   {item.value}
