@@ -36,7 +36,7 @@ export default function About() {
             ].map((item) => (
               <div
                 key={item.label}
-                className="rounded-3xl min-h-35 p-6 bg-zinc-950/70 border border-zinc-800 backdrop-blur-xl flex flex-col justify-center items-center text-center hover:border-cyan-400 transition"
+                className="rounded-3xl min-h-40 p-6 bg-zinc-950/70 border border-zinc-800 backdrop-blur-xl flex flex-col justify-center items-center text-center hover:border-cyan-400 transition"
               >
                 <div className="text-3xl md:text-4xl font-bold bg-linear-to-r from-cyan-400 to-indigo-500 bg-clip-text text-transparent">
                   {item.value}
