@@ -46,7 +46,7 @@ export default function Contact() {
               <BiMapPin className="text-zinc-400 mt-1" size={20} />
               <div>
                 <p className="text-sm text-zinc-5=400">Location</p>
-                <p className="text-white">India</p>
+                <p className="text-white">Hyderabad (India)</p>
               </div>
             </div>
           </div>
